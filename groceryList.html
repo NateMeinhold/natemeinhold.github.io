@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Nate Meinhold Portfolio</title>
+  <title>JS Grocery List</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -28,7 +28,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Home</a>
+      <a class="navbar-brand js-scroll-trigger" href="index.html">Home</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -36,30 +36,23 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#projects">Gallery</a>
+            <a class="nav-link js-scroll-trigger" href="#projects">Explanation</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
               Projects
             </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-             <a class="dropdown-item" href="ISSTracker.html">International Space Station Tracker</a>
-             <a class="dropdown-item" href="textAdventure.html">Text Adventure Game</a>
-             <a class="dropdown-item" href="groceryList.html">Dynamic Grocery List</a>
-             <a class="dropdown-item" href="userScience.html">User Science Blog</a>
-             <!-- <a class="dropdown-item" href="projectTemplate.html">Just the template</a> -->
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">                
+              <a class="dropdown-item" href="ISSTracker.html">International Space Station Tracker</a>
+            <a class="dropdown-item" href="textAdventure.html">Text Adventure Game</a>
+              <!-- <a class="dropdown-item" href="groceryList.html">Dynamic Grocery List</a> -->
+              <a class="dropdown-item" href="userScience.html">User Science Blog</a>
+              <a class="dropdown-item" href="index.html">Home</a>
             </div>
           </li>
-          
-          <!-- <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
-          </li> -->
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -70,60 +63,66 @@
   <header class="masthead">
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
-        <h1 class="mx-auto my-0 text-uppercase">Nate Meinhold</h1>
-        <h2 class="text-white-50 mx-auto mt-2 mb-5">What I Can Do</h2>
-        <a href="#projects" class="btn btn-primary js-scroll-trigger">Come and See</a>
+        <h1 class="mx-auto my-0 text-uppercase">Dynamic Grocery List</h1>
+        <h2 class="text-white-50 mx-auto mt-2 mb-5">Make a List, Check it Once</h2>
+        <!--update button to go to live site-->
+        <!-- <a href="#about" class="btn btn-primary js-scroll-trigger">See it Live</a> -->
+        <a href="https://natemeinhold.com/3020finalProject/" class="btn btn-primary js-scroll-trigger" >See Live</a>
+        <a href="https://github.com/NateMeinhold/3020finalProject" class="btn btn-primary js-scroll-trigger" >See Code</a>
       </div>
     </div>
   </header>
 
   <!-- About Section -->
-  <section id="about" class="about-section text-center">
+  <!-- <section id="about" class="about-section text-center">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2 class="text-white mb-4">My name's Nathaniel</h2>
-          <p class="text-white-50">I've lived north of Seattle long enough watch the city boom into the
-            metropolis it is today. For the past several years I have been helping direct callers to services at
-            the community hospital. Before that I did admin work for a growing local business.
-            <br><br>
-            I am looking to expand my skills, learn more about web development, connect with other developers and find
-            a job within this dynamic field. 
-          </p>
+          <h2 class="text-white mb-4">This is where my personal statement will go</h2>
+          <p class="text-white-50">Personal statement placeholder
+            <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a></p>
         </div>
       </div>
-       <img src="img/_97941.JPG" class="img-fluid" alt=""> 
+      <img src="" class="img-fluid" alt="">
     </div>
-  </section>
+  </section> -->
 
   <!-- Projects Section -->
   <section id="projects" class="projects-section bg-light">
     <div class="container">
 
-      <!-- Featured Project Row -->
+      <!-- Featured Project Row-->
       <div class="row align-items-center no-gutters mb-4 mb-lg-5">
         <div class="col-xl-8 col-lg-7">
-          <img class="img-fluid mb-3 mb-lg-0" src="img/bg-masthead.jpg" alt="">
+          <img class="img-fluid mb-3 mb-lg-0" src="img/groceryList.JPG" alt="Screenshot of the main page before information added">
         </div>
         <div class="col-xl-4 col-lg-5">
           <div class="featured-text text-center text-lg-left">
-            <h4>Coming Soon!</h4>
-            <p class="text-black-50 mb-0">Capstone project information coming soon. Currently under construction</p>
+            <h4>The Goal:</h4>
+            <p class="text-black-50 mb-0">Use JavaScript to create a dynamic grocery list.</p>
           </div>
         </div>
       </div>
 
       <!-- Project One Row -->
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-        <div class="col-lg-6">
-          <img class="img-fluid" src="img/ISS.JPG" alt="">
-        </div>
-        <div class="col-lg-6">
+        <!-- <div class="col-lg-6">
+          <img class="img-fluid" src="img/demo-image-01.jpg" alt="">
+        </div> -->
+        <div class="col-lg-20">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-left">
-                <h4 class="text-white">Vue ISS Tracker</h4>
-                <p class="mb-0 text-white-50">An app for locating the Internation Space Station. <a href="ISSTracker.html">Learn More</a></p>
+                <h4 class="text-white">The Method:</h4>
+                <p class="mb-0 text-white-50">I started by creating an HTML framework to hold the input textbox as well as the other text. The "list" was its own div where I could have the text array appear.
+                </p><br>
+                <p class="mb-0 text-white-50">After the HTML framework was in place I started working on the JavaScript. I made a function to capture the text from the textbox and added script to include a "plus mark" to each item in the Ingredients List.
+                </p><br>
+                <p class="mb-0 text-white-50">Once Ingredients are in the Ingredients List they are added to the Shopping list with another JavaScript funtion. 
+                </p><br>
+                <h4 class="text-white">Unexpected Challenges:</h4>
+                <p class="mb-0 text-white-50">
+                  The hardest thing for me was keeping this project simple. I had so many ideas about what I wanted to do with it. In the end there were several ideas that were scrapped that ended up with some "dirty code". I learned that it's important to have a detailed plan before ever starting to code.</p>
                 <hr class="d-none d-lg-block mb-0 ml-0">
               </div>
             </div>
@@ -131,65 +130,72 @@
         </div>
       </div>
 
+        <!-- Featured Project Row-->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-8 col-lg-7">
+            <img class="img-fluid mb-3 mb-lg-0" src="img/groceryList1.JPG" alt="Screenshot of the main page after information added">
+          </div>
+          <div class="col-xl-4 col-lg-5">
+            <div class="featured-text text-center text-lg-left">
+              <h4>Result:</h4>
+              <p class="text-black-50 mb-0">A basic (by dynamic) shopping list app using JavaScript.</p>
+            </div>
+          </div>
+        </div>
+
       <!-- Project Two Row -->
-      <div class="row justify-content-center no-gutters">
+      <!-- <div class="row justify-content-center no-gutters">
         <div class="col-lg-6">
-          <img class="img-fluid" src="img/textGame.JPG">
+          <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
         </div>
         <div class="col-lg-6 order-lg-first">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-right">
-                <h4 class="text-white">Text Adventure</h4>
-                <p class="mb-0 text-white-50">A Choose Your Own-styled text game.<br>
-                  <a href="textAdventure.html">Learn More</a>
-                </p>
+                <h4 class="text-white">A Smaller Project</h4>
+                <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
                 <hr class="d-none d-lg-block mb-0 mr-0">
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
          <!-- Project Three Row -->
-         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+         <!-- <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div class="col-lg-6">
-            <img class="img-fluid" src="img/groceryList.JPG" alt="">
+            <img class="img-fluid" src="img/demo-image-01.jpg" alt="">
           </div>
           <div class="col-lg-6">
             <div class="bg-black text-center h-100 project">
               <div class="d-flex h-100">
                 <div class="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 class="text-white">JavaScript Grocery List</h4>
-                  <p class="mb-0 text-white-50">A dynamic grocery list using JavaScript to place ingredients in a list and add them to a shopping list.
-                    <a href="groceryList.html">Learn More</a>
-                  </p>
+                  <h4 class="text-white">A Smaller Project</h4>
+                  <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
                   <hr class="d-none d-lg-block mb-0 ml-0">
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
 
            <!-- Project Four Row -->
-      <div class="row justify-content-center no-gutters">
+      <!-- <div class="row justify-content-center no-gutters">
         <div class="col-lg-6">
-          <img class="img-fluid" src="img/userSci.JPG" alt="">
+          <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
         </div>
         <div class="col-lg-6 order-lg-first">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-right">
-                <h4 class="text-white">User Science Blog</h4>
-                <p class="mb-0 text-white-50">A fun little blog about User Science, design and how to help Users enjoy your website. <br>
-                  <a href="userScience.html">Learn More</a>
-                </p>
+                <h4 class="text-white">A Smaller Project</h4>
+                <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
                 <hr class="d-none d-lg-block mb-0 mr-0">
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
     </div>
   </section>
@@ -197,8 +203,18 @@
   
 
   <!-- Signup Section -->
-  <section id="signup" class="signup-section">
-    <div class="container">
+  <!--<section id="signup" class="signup-section">
+       <div class="social d-flex justify-content-center">
+          <a href="https://twitter.com/nathanielmein" class="mx-2">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/nathaniel-meinhold/" class="mx-2">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com/NateMeinhold" class="mx-2">
+            <i class="fab fa-github"></i>
+          </a>
+        </div> -->
       <!-- <div class="row">
         <div class="col-md-10 col-lg-8 mx-auto text-center">
 
@@ -216,16 +232,16 @@
   </section>
 
   <!-- Contact Section -->
-  <section class="contact-section bg-black">
-    <div class="container">
+   <section class="contact-section bg-black" section id="contact">
+    <!-- <div class="container">
 
-      <!-- <div class="row">
+      <div class="row">
 
         <div class="col-md-4 mb-3 mb-md-0">
           <div class="card py-4 h-100">
             <div class="card-body text-center">
-              <i class="fab fa-twitter text-primary mb-2"></i>
-              <h4 class="text-uppercase m-0">Twitter</h4>
+              <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Address</h4>
               <hr class="my-4">
               <div class="small text-black-50">4923 Market Street, Orlando FL</div>
             </div>
@@ -248,14 +264,14 @@
         <div class="col-md-4 mb-3 mb-md-0">
           <div class="card py-4 h-100">
             <div class="card-body text-center">
-              <i class="fab fa-github text-primary mb-2"></i>
-              <h4 class="text-uppercase m-0">Github</h4>
+              <i class="fas fa-mobile-alt text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Phone</h4>
               <hr class="my-4">
               <div class="small text-black-50">+1 (555) 902-8832</div>
             </div>
           </div>
         </div>
-      </div> -->
+      </div>  -->
 
       <div class="social d-flex justify-content-center">
           <a href="https://twitter.com/nathanielmein" class="mx-2">
@@ -268,7 +284,8 @@
             <i class="fab fa-github"></i>
           </a>
         </div>
-
+      </div>
+      
     </div>
   </section>
 
